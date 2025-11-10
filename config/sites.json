@@ -1,0 +1,17 @@
+{
+  "sites": [
+    {
+      "name": "KKTIX",
+      "list_url": "https://kktix.com/events",
+      "selectors": {
+        "event_links": "li.type-selling a.cover",
+        "title": "div.header-title h1",
+        "date_start": "span.timezoneSuffix:first-of-type",
+        "date_end": "span.timezoneSuffix:last-of-type",
+        "price": "span.currency-value"
+      },
+      "max_events": 8,
+      "note": "只抓販售中活動，最多8筆"
+    }
+  ]
+}
