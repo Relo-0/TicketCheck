@@ -1,0 +1,14 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+ticket_env/
+
+# Logs
+logs/
+*.log
+
+# Reports
+reports/*.xlsx
